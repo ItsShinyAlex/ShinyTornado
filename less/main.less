@@ -22,9 +22,14 @@
     font-style: normal;
 }
 
+#tornado-landing{
 
-
-
+a{
+    transition: 0.3s;
+    &:hover{
+        color: @orange;
+    }
+}
 
 .flex {
     display: flex;
@@ -84,14 +89,15 @@ h2{
 }
 
 .btn-navy{
-    padding: 16px 24px;
+    padding: 22px 36px;
+    box-shadow: 5px 3px 16px black;
      -webkit-box-sizing: content-box;
       -moz-box-sizing: content-box;
       box-sizing: content-box;
       width: t150px;
       //height: 55px;
       border: none;
-      font-family: 'avenir';
+      font-family: 'Akzidenz-Grotesk BQ';
         font-size: 20px;
         font-style: italic;
     font-weight: 600;
@@ -99,8 +105,8 @@ h2{
       -o-text-overflow: clip;
       text-overflow: clip;
       background: #1a365b;
-      -webkit-transform: rotateY(0deg)   skewX(12deg);
-      transform: rotateY(0degdeg)   skewX(12deg);
+      -webkit-transform: rotateY(0deg)   skewX(13deg);
+      transform: rotateY(0degdeg)   skewX(13deg);
     
         .rotated{
              -webkit-transform: rotateY(0deg)   skewX(-12deg) !important;
@@ -183,7 +189,7 @@ h2{
 }
 
 #skydive{
-    padding-bottom: 200px;
+    padding-bottom: 188px;
     min-height: 650px;
     background: url(../img/banner1.jpg) center center no-repeat;
     background-size: cover;
@@ -207,7 +213,11 @@ h2{
 }
     
 #tunel{
+    
+    //overflow: hidden;
+    
     .giant{
+        max-width: 60%;
         font-size: 140px;
         font-family: 'Akzidenz-Grotesk BQ';
         position: relative;
@@ -334,6 +344,7 @@ h2{
 }
 
 #howmuch{
+     overflow: hidden;
     background: url(../img/cuantoPLUSBLUE.png) center top no-repeat;
     background-size: 100% auto;
     .price{
@@ -455,7 +466,7 @@ h2{
 }
 
 body {
-    background: #eee;
+    background: white;
     overflow: scroll;
 }
 
@@ -539,7 +550,11 @@ border-bottom: 2px;
 }
 
 .content {  
+    .pad-top{
+        padding-top: 20px;
+    }
   opacity: 0;
+
   transform: translateY(20px);
   transition: all ease-out .4s .1s;
     p{
@@ -617,5 +632,45 @@ border-bottom: 2px;
     }
 }
 
+#dream{
+    padding-top: 40px;
+    background: url(../img/bluefilerIMAGEBack.jpg) center center no-repeat;
+    
+    .orange-line{
+        min-height: 120px;
+        background-color: @orange;
+        
+        .btn-navy{
+            width: 280px;
+            text-align: center;
+            font-size: 30px;
+            
+        }
+    }
+}
 
-//@import "responsive";
+#direccion{
+    .container{
+        padding: 40px 100px;
+        
+        h2{
+            font-family: 'avenir' !important;
+            font-weight: bold;
+        }
+        p{
+            padding-bottom: 15px;
+        }
+        
+        .full-h{
+            height: 100%;
+        }
+        
+        iframe{
+            height: 100%
+        }
+    }
+}
+
+
+@import "responsive";
+}

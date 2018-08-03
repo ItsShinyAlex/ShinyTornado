@@ -17,60 +17,67 @@
   font-weight: normal;
   font-style: normal;
 }
-.flex {
+#tornado-landing a {
+  transition: 0.3s;
+}
+#tornado-landing a:hover {
+  color: #f0682f;
+}
+#tornado-landing .flex {
   display: flex;
   flex-wrap: wrap;
 }
-.flex.center-h {
+#tornado-landing .flex.center-h {
   justify-content: center;
   text-align: center;
 }
-.flex.nowrap {
+#tornado-landing .flex.nowrap {
   flex-wrap: nowrap;
 }
-.flex .col {
+#tornado-landing .flex .col {
   width: 50%;
   padding: 0px;
   box-sizing: border-box;
 }
-.flex .col.align-self-center {
+#tornado-landing .flex .col.align-self-center {
   align-self: center;
 }
-.flex .col.align-self-end {
+#tornado-landing .flex .col.align-self-end {
   align-self: flex-end;
 }
-p {
+#tornado-landing p {
   font-size: 26px;
   color: black;
   font-family: 'avenir';
 }
-.shadow {
+#tornado-landing .shadow {
   text-shadow: 2px 2px 8px #000000;
 }
-.fcentered {
+#tornado-landing .fcentered {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.center {
+#tornado-landing .center {
   text-align: center;
 }
-h2 {
+#tornado-landing h2 {
   font-family: 'Akzidenz-Grotesk BQ';
   margin-bottom: 0px;
 }
-.container {
+#tornado-landing .container {
   max-width: 1350px;
   margin: auto;
 }
-.btn-navy {
-  padding: 16px 24px;
+#tornado-landing .btn-navy {
+  padding: 22px 36px;
+  box-shadow: 5px 3px 16px black;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   width: t150px;
   border: none;
-  font-family: 'avenir';
+  font-family: 'Akzidenz-Grotesk BQ';
   font-size: 20px;
   font-style: italic;
   font-weight: 600;
@@ -78,83 +85,84 @@ h2 {
   -o-text-overflow: clip;
   text-overflow: clip;
   background: #1a365b;
-  -webkit-transform: rotateY(0deg) skewX(12deg);
-  transform: rotateY(0degdeg) skewX(12deg);
+  -webkit-transform: rotateY(0deg) skewX(13deg);
+  transform: rotateY(0degdeg) skewX(13deg);
 }
-.btn-navy .rotated {
+#tornado-landing .btn-navy .rotated {
   -webkit-transform: rotateY(0deg) skewX(-12deg) !important;
   transform: rotateY(0degdeg) skewX(-12deg) !important;
 }
-.heavy {
+#tornado-landing .heavy {
   font-family: 'Akzidenz-Grotesk BQ';
   font-size: 36px;
 }
-.white {
+#tornado-landing .white {
   color: white;
 }
-.navy,
-.blue {
+#tornado-landing .navy,
+#tornado-landing .blue {
   color: #1a365b;
 }
-.orange {
+#tornado-landing .orange {
   color: #f0682f;
 }
-.small-h2 {
+#tornado-landing .small-h2 {
   color: white;
   font-size: 26px;
   line-height: 50%;
 }
-.title-h2 {
+#tornado-landing .title-h2 {
   color: white;
   font-size: 76px;
   line-height: 50%;
 }
-#tornado {
+#tornado-landing #tornado {
   background: linear-gradient(to right, white 50%, #1a365b 50%);
 }
-#tornado .container {
+#tornado-landing #tornado .container {
   height: 105px;
   background: url(../img/tornadoHEADERfullITEMS.png) center center no-repeat;
   background-size: 100% 103%;
   background-position: center;
 }
-#tornado .container .flex {
+#tornado-landing #tornado .container .flex {
   padding-left: 20%;
 }
-#tornado .container .flex .mid {
+#tornado-landing #tornado .container .flex .mid {
   width: 35%;
   padding-right: 30px;
 }
-#tornado .container .flex .big {
+#tornado-landing #tornado .container .flex .big {
   width: 48%;
 }
-#tornado img {
+#tornado-landing #tornado img {
   width: 100%;
 }
-#tornado .heavy {
+#tornado-landing #tornado .heavy {
   font-size: 30px;
 }
-#skydive {
-  padding-bottom: 200px;
+#tornado-landing #skydive {
+  padding-bottom: 188px;
   min-height: 650px;
   background: url(../img/banner1.jpg) center center no-repeat;
   background-size: cover;
 }
-#skydive .fcentered {
+#tornado-landing #skydive .fcentered {
   width: 100%;
   height: 600px;
   flex-direction: column;
 }
-#skydive .fcentered h2 {
+#tornado-landing #skydive .fcentered h2 {
   font-size: 80px;
 }
-#skydive .fcentered p {
+#tornado-landing #skydive .fcentered p {
   font-size: 40px;
   font-weight: 600;
   padding: 5px 295px;
   line-height: 105%;
 }
-#tunel .giant {
+#tornado-landing #tunel .giant {
+  max-width: 60%;
   font-size: 140px;
   font-family: 'Akzidenz-Grotesk BQ';
   position: relative;
@@ -162,55 +170,55 @@ h2 {
   left: 160px;
   margin: 0px;
 }
-#tunel .big {
+#tornado-landing #tunel .big {
   font-size: 92px;
   font-family: 'Akzidenz-Grotesk BQ';
 }
-#tunel .small {
+#tornado-landing #tunel .small {
   width: 41%;
   position: relative;
 }
-#tunel .bigger {
+#tornado-landing #tunel .bigger {
   position: relative;
   bottom: 170px;
 }
-#tunel .bigger .justified {
+#tornado-landing #tunel .bigger .justified {
   text-align: justify;
   padding-top: 20px;
   padding-right: 40px;
   padding-bottom: 50px;
   line-height: 105%;
 }
-#tunel #wind-tunel {
+#tornado-landing #tunel #wind-tunel {
   position: relative;
   bottom: 135px;
   right: 200px;
 }
-#howorks {
+#tornado-landing #howorks {
   min-height: 850px;
   background: url(../img/fondo-imagen-tunel2.png) center center no-repeat;
   background-size: 100% 100%;
 }
-#howorks .pad-left {
+#tornado-landing #howorks .pad-left {
   padding-left: 100px;
   padding-top: 4.5%;
 }
-#howorks h2 {
+#tornado-landing #howorks h2 {
   padding-bottom: 60px;
 }
-#howorks p {
+#tornado-landing #howorks p {
   line-height: 102%;
   font-weight: 100;
   text-align: justify;
   padding: 10px 60px 10px 0px;
 }
-#howorks .small {
+#tornado-landing #howorks .small {
   width: 43%;
 }
-#howorks .big {
+#tornado-landing #howorks .big {
   width: 55%;
 }
-#whocan #vivir {
+#tornado-landing #whocan #vivir {
   background: url(../img/viviresta.png) no-repeat;
   background-position: right 30px;
   background-size: 100% 13%;
@@ -218,146 +226,147 @@ h2 {
   padding-top: 4%;
   width: 52%;
 }
-#whocan #vivir span.orange {
+#tornado-landing #whocan #vivir span.orange {
   font-size: 72px;
 }
-#whocan #vivir .mov-change br {
+#tornado-landing #whocan #vivir .mov-change br {
   display: block;
   margin: 90px 0;
   content: " ";
 }
-#whocan #vivir p {
+#tornado-landing #whocan #vivir p {
   margin-bottom: 30px;
 }
-#whocan #vivir h2 {
+#tornado-landing #whocan #vivir h2 {
   margin-bottom: 60px;
   padding-left: 80px;
 }
-#whocan #vivir p {
+#tornado-landing #whocan #vivir p {
   line-height: 107%;
 }
-#whocan #vivir ul {
+#tornado-landing #whocan #vivir ul {
   margin-bottom: 35px;
   margin-left: 0;
   list-style-type: circle;
 }
-#whocan #vivir ul li p {
+#tornado-landing #whocan #vivir ul li p {
   margin-bottom: 4px;
 }
-#whocan #rnr {
+#tornado-landing #whocan #rnr {
   position: relative;
   bottom: 140px;
   right: 290px;
 }
-#whocan .small {
+#tornado-landing #whocan .small {
   width: 48%;
 }
-#howmuch {
+#tornado-landing #howmuch {
+  overflow: hidden;
   background: url(../img/cuantoPLUSBLUE.png) center top no-repeat;
   background-size: 100% auto;
 }
-#howmuch .price {
+#tornado-landing #howmuch .price {
   font-size: 36px;
   font-weight: 600;
   font-family: 'Akzidenz-Grotesk BQ';
 }
-#howmuch h2 {
+#tornado-landing #howmuch h2 {
   line-height: 170%;
 }
-#howmuch .container {
+#tornado-landing #howmuch .container {
   padding: 0px 50px;
 }
-#howmuch .mid {
+#tornado-landing #howmuch .mid {
   padding: 15px 360px;
   font-size: 36px;
   line-height: 100%;
 }
-#howmuch .left {
+#tornado-landing #howmuch .left {
   margin: 50px;
   margin-top: 0px;
   margin-left: 17%;
   width: 100%;
 }
-#howmuch .right {
+#tornado-landing #howmuch .right {
   padding: 0px 210px;
   position: relative;
   bottom: 16px;
 }
-#howmuch .pad-top {
+#tornado-landing #howmuch .pad-top {
   margin-top: 100px;
   padding-top: 100px;
 }
-#howmuch .center {
+#tornado-landing #howmuch .center {
   padding-top: 80px;
 }
-#howmuch .small-p {
+#tornado-landing #howmuch .small-p {
   font-size: 22px;
 }
-#howmuch .no {
+#tornado-landing #howmuch .no {
   line-height: 73% !important;
 }
-#howmuch .blue-border {
+#tornado-landing #howmuch .blue-border {
   border: solid #1a365b 8px;
   width: 50%;
 }
-#howmuch .blue-border p {
+#tornado-landing #howmuch .blue-border p {
   margin: 0;
   padding: 0;
   font-family: 'Akzidenz-Grotesk BQ';
   font-size: 24px;
 }
-#faq {
+#tornado-landing #faq {
   margin-top: 100px;
 }
-#faq .bluebox {
+#tornado-landing #faq .bluebox {
   background-color: #1a365b;
   height: auto;
   width: 1020px;
   padding: 50px;
   margin-bottom: 50px;
 }
-#faq .bluebox .title-h2 {
+#tornado-landing #faq .bluebox .title-h2 {
   font-size: 68px;
 }
-#faq .bluebox .title-h2 #preguntas {
+#tornado-landing #faq .bluebox .title-h2 #preguntas {
   padding-left: 40px;
   padding-right: 40px;
 }
-#faq .bluebox .title-h2 #frecuentes {
+#tornado-landing #faq .bluebox .title-h2 #frecuentes {
   padding-left: 40px;
   padding-right: 40px;
   position: relative;
   top: 25px;
   right: 20px;
 }
-#faq .bluebox .pf {
+#tornado-landing #faq .bluebox .pf {
   padding: 10px 10px 80px 10px;
 }
-#faq .bluebox #w-addon {
+#tornado-landing #faq .bluebox #w-addon {
   position: relative;
   width: 31%;
   top: 25px;
 }
-[data-accordion-element-content] {
+#tornado-landing [data-accordion-element-content] {
   height: auto;
   overflow: hidden;
   transition: height .5s;
 }
-* {
+#tornado-landing * {
   box-sizing: border-box;
 }
-body {
-  background: #eee;
+#tornado-landing body {
+  background: white;
   overflow: scroll;
 }
-.card {
+#tornado-landing .card {
   width: 95%;
   margin: 50px auto;
   border-radius: 2px;
   background: transparent;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
-article {
+#tornado-landing article {
   position: relative;
   font-family: 'avenir';
   transition: all .3s;
@@ -365,12 +374,12 @@ article {
   border: solid white 4px;
   border-bottom: 2px;
 }
-article.selected {
+#tornado-landing article.selected {
   transform: scale(1.1);
   box-shadow: 0 0 5px rgba(2, 2, 2, 0.4);
   z-index: 2;
 }
-.effect {
+#tornado-landing .effect {
   position: relative;
   background: transparent;
   padding: 20px 40px;
@@ -381,13 +390,13 @@ article.selected {
   transition: background .3s;
   margin-bottom: 0px;
 }
-.effect:hover,
-.selected .effect {
+#tornado-landing .effect:hover,
+.selected #tornado-landing .effect {
   cursor: pointer;
   background: #3949AB;
 }
-.effect:before,
-.effect:after {
+#tornado-landing .effect:before,
+#tornado-landing .effect:after {
   content: "";
   position: absolute;
   right: 0;
@@ -399,31 +408,34 @@ article.selected {
   background: #fff;
   transition: transform .3s;
 }
-.effect:before {
+#tornado-landing .effect:before {
   transform: rotate(0deg);
   animation: close-line-one-in 0.8s forwards;
 }
-.selected .effect:before {
+.selected #tornado-landing .effect:before {
   animation: close-line-one-out 0.8s forwards;
 }
-.effect:after {
+#tornado-landing .effect:after {
   transform: rotate(90deg);
   animation: close-line-two-in 0.8s forwards;
 }
-.selected .effect:after {
+.selected #tornado-landing .effect:after {
   animation: close-line-two-out 0.8s forwards;
 }
-.content {
+#tornado-landing .content {
   opacity: 0;
   transform: translateY(20px);
   transition: all ease-out 0.4s 0.1s;
 }
-.content p {
+#tornado-landing .content .pad-top {
+  padding-top: 20px;
+}
+#tornado-landing .content p {
   color: white;
   padding-left: 30px;
   font-size: 20px;
 }
-.selected .content {
+.selected #tornado-landing .content {
   transform: translateY(0);
   opacity: 1;
 }
@@ -484,5 +496,55 @@ article.selected {
   }
   100% {
     transform: rotate(90deg);
+  }
+}
+#tornado-landing #dream {
+  padding-top: 40px;
+  background: url(../img/bluefilerIMAGEBack.jpg) center center no-repeat;
+}
+#tornado-landing #dream .orange-line {
+  min-height: 120px;
+  background-color: #f0682f;
+}
+#tornado-landing #dream .orange-line .btn-navy {
+  width: 280px;
+  text-align: center;
+  font-size: 30px;
+}
+#tornado-landing #direccion .container {
+  padding: 40px 100px;
+}
+#tornado-landing #direccion .container h2 {
+  font-family: 'avenir' !important;
+  font-weight: bold;
+}
+#tornado-landing #direccion .container p {
+  padding-bottom: 15px;
+}
+#tornado-landing #direccion .container .full-h {
+  height: 100%;
+}
+#tornado-landing #direccion .container iframe {
+  height: 100%;
+}
+@media screen and (max-width: 1225px) {
+  #tornado-landing #tunel .big {
+    font-size: 82px;
+  }
+  #tornado-landing #tunel #wind-tunel {
+    right: 275px;
+  }
+  #tornado-landing #whocan #vivir span.orange {
+    font-size: 62px;
+  }
+  #tornado-landing #howmuch .title-h2 {
+    font-size: 56px !important;
+  }
+  #tornado-landing #howmuch .right {
+    padding: 0px 60px;
+    bottom: 29px;
+  }
+  #tornado-landing #howmuch .mid {
+    padding: 15px 310px;
   }
 }

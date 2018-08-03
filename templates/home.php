@@ -2,8 +2,9 @@
     /* Template Name:  home TORNADO*/ 
     get_header();
 ?>
+<div id="tornado-landing">
 
-<section id="tornado">
+<section class="template-section" id="tornado">
     <div class="container fcentered">
         <div class="flex fcentered">
             <!--<div class="col small">
@@ -19,7 +20,7 @@
     </div>
 </section>
 
-<section id="skydive">
+<section class="template-section" id="skydive">
     <div class="container">
         <div class="center fcentered">
             <h2 class="shadow white">Skydive México</h2>
@@ -34,7 +35,7 @@
     </div>
 </section>
 
-<section id="tunel" class="pad-right">
+<section id="tunel" class="template-section pad-right">
     <div class="container">
         <p class="blue titles giant">
             TÚNEL 
@@ -58,7 +59,7 @@
     </div>
 </section>
 
-<section id="howorks">
+<section class="template-section" id="howorks">
     <div class="container">
         <div class="flex pad-left">
             <div class="col big">
@@ -90,7 +91,7 @@
     </div>
 </section>
 
-<section id="whocan">
+<section class="template-section" id="whocan">
     <div class="container flex">
         <div class="col small">
             <img id="rnr" src="<?php echo get_stylesheet_directory_uri(); ?>/img/rockandrollguy.png" alt="Instructores de Tornado">
@@ -145,7 +146,7 @@
     </div>
 </section>
 
-<section id="howmuch">
+<section class="template-section" id="howmuch">
     <div class="container">
         <div class="left">
             <h2 class="white">
@@ -184,7 +185,7 @@
     </div>
 </section>
 
-<section id="faq">
+<section class="template-section" id="faq">
     <div class="container">
        
        <div class="fcentered">
@@ -198,13 +199,17 @@
                <div class="fcentered">
                    
                    
-                               <div class="card">
+                              
+                              
+                              
+                              
+                 <div class="card">
                       <article>
-                        <h4 class="effect" data-accordion-element-trigger>Elaboración de Contabilidad Electrónica.</h4>
+                        <h4 class="effect" data-accordion-element-trigger>¿Cuál es el Diámetro y la altura de Tornado?</h4>
                         <div data-accordion-element-content class="content">
-                          <p class="pad-top">La contabilidad electrónica se refiere a la obligación de llevar los registros y asientos contables a través de medios electrónicos e ingresar de forma mensual su información contable a través de la página de Internet del SAT.</p>
+                          <p class="pad-top">Diámetro 2.20 mts., suficiente para que quepa cualquier persona o dos personas con habilidades avanzadas y una altura 5.5o metros.</p>
                              <br>
-                           <p class="pad-bot"> Para dar cumplimiento formal al ingreso mensual de información contable, únicamente se enviará la balanza de comprobación y el catálogo de cuentas con el código agrupador del SAT que permita su interpretación.</p>
+                        
 
 
                           
@@ -212,76 +217,37 @@
                       </article>
                       
                       <article>
-                        <h4 class="effect" data-accordion-element-trigger>Administración de la nómina.</h4>
+                        <h4 class="effect" data-accordion-element-trigger>¿El túnel tiene cámara de vídeo integrada?</h4>
                         <div data-accordion-element-content class="content">
-                           <p class="pad-top">Consiste en contratar a una empresa para que efectúe un servicio, la contratación de personal, logrando con ésto beneficios tales como:</p>
-                            <h5>Generar Ahorro</h5>
-                            <p>*Ahorros Generales Tanto para el patrón como para los empleados</p>
-                            <h5>Percepción Extra</h5>
-                            <p>*Toda percepción extra está exenta tanto como para el patrón como para los empleados (comisiones, pago de bonos, etc).</p>
-                            <h5>Evita incrementar personal</h5>
-                            <p class="pad-bot" >*Evitando incrementar la plantilla del personal, debido a que no se contrata una persona sino a una empresa que provee servicios.</p>
+                           <p class="pad-top">Todas las instalaciones cuentan con cámara de vídeo.</p>
+                            
 
                         </div>
                       </article>
                       
                       <article>
-                        <h4 class="effect" data-accordion-element-trigger>Elaboración de Estados Financieros.</h4>
+                        <h4 class="effect" data-accordion-element-trigger>¿Dónde puedo comprar el vídeo de mi vuelo?</h4>
                         <div data-accordion-element-content class="content">
                          
-                          <p class="pad-top">Los estados financieros son los documentos que debe preparar la empresa al terminar el ejercicio contable, con el fin de conocer la situación financiera y los resultados económicos obtenidos en sus actividades a lo largo del período</p>
-                          <br>
-                          <p>La información presentada en los estados financieros interesa a:</p>
-                          
-                          <ul>
-                              <li>La administración, para la toma de decisiones, después de conocer el rendimiento, crecimiento y desarrollo de la empresa durante un periodo determinado.</li>
-                              <li>Los propietarios para conocer el progreso financiero del negocio y la rentabilidad de sus aportes.</li>
-                              <li>Los acreedores, para conocer la liquidez de la empresa y la garantía de cumplimiento de sus obligaciones.</li>
-                              <li>El estado, para determinar si el pago de los impuestos y contribuciones esta correctamente liquidado.</li>
-                          </ul>
-                          
-                          <p>Los estados financieros básicos son:</p>
-                          
-                          <ul class="pad-bot">
-                              <li>Balance general.</li>
-                              <li>Estado de resultados.</li>
-                              <li>Estado de cambios en el patrimonio.</li>
-                              <li>Estado de cambios en la situación financiera (origen y aplicación de fondos).</li>
-                              <li>Estado de flujos de efectivo.</li>
-                          </ul>
+                          <p class="pad-top">Puedes adquirir tu vídeo en la recepción al terminar el vuelo.</p>
+                         
                         </div>
                       </article>
                       
                       <article>
-                        <h4 class="effect" data-accordion-element-trigger>Determinación y presentación de pagos provisionales, pagos definitivos, declaraciones anuales, declaraciones informativas, etc.</h4>
+                        <h4 class="effect" data-accordion-element-trigger>Si se paga una hora de salto, ¿tiene que volar 1 hora la misma persona?</h4>
                         <div data-accordion-element-content class="content">
-                          <p class="pad-top">ISR, IVA, Retenciones, DIOTS, Riesgo de trabajo, etc.</p>
-                          <br>
-                          <p class="pad-bot">Todo de acuerdo a las obligaciones fiscales que tenga cada contribuyente registradas ante las autoridades fiscales y/o administrativas.</p>
-                        </div>
-                      </article>
-                      
-                       <article>
-                        <h4 class="effect" data-accordion-element-trigger>Determinación y presentación de Cuotas Obrero – Patronales ante el Instituto Mexicano del Seguro Social (IMSS). </h4>
-                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">El servicio se ofrece en bloques de 2 minutos. Si se compra una hora completa a precio promocional, se puede compartir con los familiares. ¡Aprovecha!</p>
                        
                         </div>
                       </article>
                       
-                       <article>
-                        <h4 class="effect" data-accordion-element-trigger>Presentación de avisos mediante los diferentes portales de las autoridades fiscales y administrativas, así como la solventación de notificaciones.</h4>
-                        <div data-accordion-element-content class="content">
-                        
-                        </div>
-                      </article>
-                      
-                       <article>
-                        <h4 class="effect" data-accordion-element-trigger>Gestión ante las autoridades municipales para la obtención de la licencia de funcionamiento.</h4>
-                        <div data-accordion-element-content class="content">
-                       
-                        </div>
-                      </article>
                     </div>
+                    
+                    
+                    
+                    
+                    
                </div>
                 
             </div>
@@ -297,21 +263,21 @@
     </div>
 </section>
 
-<section id="dream">
+<section class="template-section" id="dream">
     <div class="center">
         <p class="heavy white">SI SOÑASTE CON VOLAR...</p>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tornado.png" alt="TORNADO">
         <p class="heavy white">¡LO HACE REALIDAD!</p>
         
     </div>
-    <div class="orange-line center">
+    <div class="orange-line fcentered">
         <a href="" class="btn-navy">
-                ¿Cómo llegar?
+                ¡Reserva Ya!
         </a>
     </div>
 </section>
 
-<section id="direccion">
+<section class="template-section" id="direccion">
     <div class="container">
         <div class="flex">
             <div class="col">
@@ -324,15 +290,15 @@
                 <p>Lunes a Domingo <br>
                 8:00 a 19:00 hrs</p>
                 <h2 class="orange">CORREO ELECTRÓNICO</h2>
-                <p>contacto@paracaidismo.mx</p>
+                <p><a href="mailto:contacto@paracaidismo.mx?subject=Contacto%20Tornado" target="_top" >contacto@paracaidismo.mx</a></p>
                 <h2 class="blue">TELÉFONO Y WHATSAPP MÉXICO</h2>
-                <p>55 4044 0422  y  55 7397 0829</p>
+                <p><a href="https://wa.me/5540440422" target="_blank" >55 4044 0422</a>  y  <a href="https://wa.me/5573970829" target="_blank" >55 7397 0829</a></p>
                 <h2 class="orange">OFICINA EN CUERNAVACA</h2>
                 <p>01 777 171 5650</p>
             </div>
             <div class="col">
                 <div class="full-h">
-                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.3446937867047!2d-99.26708568510531!3d18.64852198733453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd46cd07c4001%3A0x2be027abb591c6c7!2sSkydive+M%C3%A9xico+-+Paracaidismo+Tequesquitengo!5e0!3m2!1ses-419!2smx!4v1533280755308" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -516,6 +482,8 @@
       console.log("elementOpened", data);
     });
 </script>
+
+</div>
 
 <?php 
     get_footer();
