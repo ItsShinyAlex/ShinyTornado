@@ -28,7 +28,7 @@
                 ¡LO TRAE PARA TI EN EL 
                 AERÓDROMO DE TEQUESQUITENGO!
             </p>
-            <a href="" class="btn-navy">
+            <a href="#direccion" class="btn-navy">
                 <span class="rotated">¿Cómo llegar?</span>
             </a>
         </div>
@@ -204,8 +204,187 @@
                               
                               
                  <div class="card">
+                   
+                   <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿LOS MENORES DE 18 AÑOS NECESITAN ALGUNA AUTORIZACIÓN?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Sí. Los niños y adolescentes deben venir acompañados por un adulto.  Este deberá consignar una  autorización firmada del tutor o representante legal del menor. El acompañante  será responsable de la autenticidad de la autorización y de la firma. </p>
+                             <br>
+                        
+
+
+                          
+                        </div>
+                      </article>
+                      
                       <article>
-                        <h4 class="effect" data-accordion-element-trigger>¿Cuál es el Diámetro y la altura de Tornado?</h4>
+                        <h4 class="effect" data-accordion-element-trigger>¿QUÉ NECESITO PARA VOLAR?</h4>
+                        <div data-accordion-element-content class="content">
+                           <p class="pad-top">Sólo necesitas tus tennis con agujetas, ropa cómoda y una buena actitud. Si usas  lentes, no te preocupes, puedes ponerte encima los nuestros.</p>
+                            
+
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿ESTARÉ SÓLO EN EL TORNADO?</h4>
+                        <div data-accordion-element-content class="content">
+                         
+                          <p class="pad-top">No, un instructor experimentado estará contigo durante todo el vuelo. Te ayudará a tener la posición correcta del cuerpo y a mover adecuadamente las piernas y los brazos.</p>
+                         
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿SE PUEDE INTERRUMPIR EL VUELO?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Si.  Tu instructor puede dar señales para reducir la velocidad o interrumpir el vuelo en cualquier momento y el operador que lo hará inmediatamente. </p>
+                       
+                        </div>
+                      </article>
+                   
+                   <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿CÓMO CONTROLO LA ALTURA DE MI VUELO?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Con ayuda de nuestros instructores aprenderás los movimientos básicos para controlar el vuelo y cómo cambiar de altura con movimientos del cuerpo.</p>
+                             <br>
+                        
+
+
+                          
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿EL FLUJO DE VIENTO TIENE SIEMPRE LA MISMA VELOCIDAD EN EL SIMULADOR?</h4>
+                        <div data-accordion-element-content class="content">
+                           <p class="pad-top">No. La velocidad del viento depende del peso del volador y su posición. La velocidad máxima del Tornado es de 270 km/h.  Desde afuera un operador controla el flujo del aire dependiendo quién vuela y su posición. </p>
+                            
+                            <p>Para voladores ligeros, la velocidad del aire será más baja y más alta para aquellos más pesados. Asimismo será más baja para las posiciones básicas y más alta para posiciones cómo de  espaldas, sentado y cabeza abajo. </p>    
+
+                        </div>
+                      </article>
+                      
+  
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿CÓMO PODRÉ ENTRAR AL FLUJO DE AIRE?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Nuestro instructor te ayudará a entrar en la cámara. Por una puerta que está en la parte baja de la cámara de vuelo y te apoyarás directamente en la corriente de aire, enseguida sentirás como el viento te levanta y ya estarás volando.</p>
+                       
+                        </div>
+                      </article>
+                    
+                    <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿PODRÉ RESPIRAR CON NORMALIDAD EN LA CORRIENTE DE AIRE?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Si. Generalmente, las personas no tienen problemas para respirar en fuertes corrientes de aire. Pero si sientes que te costará, puede solucionarse con un casco integral.</p>
+                             <br>
+                        
+
+
+                          
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿QUÉ PASA SI PIERDO EL CONTROL?</h4>
+                        <div data-accordion-element-content class="content">
+                           <p class="pad-top">Incluso los voladores experimentados entran acompañados al túnel. Nuestros instructores están entrenados especialmente para estas situaciones, por lo que estarán siempre contigo y serán capaces de ayudarte.</p>
+                            
+
+                        </div>
+                      </article>
+                      
+         
+                    
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿NECESITO ALGÚN OBJETO O ADITAMENTO ESPECIAL?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">El servicio se ofrece en bloques de 2 minutos. Si se compra una hora completa a precio promocional, se puede compartir con los familiares. ¡Aprovecha!</p>
+                       
+                        </div>
+                      </article>
+                     
+   
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿PUEDO LLEVAR MI CÁMARA DE FOTOS O VIDEO AL TÚNEL DE VIENTO?</h4>
+                        <div data-accordion-element-content class="content">
+                           <p class="pad-top">Sí. Pero no podrás usarla dentro de Tornado. Tus acompañantes si podrán grabarte y/o hacer fotos de tu vuelo a través del cristal del túnel de viento.</p>
+                            
+
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿QUÉ PASA SI MIENTRAS VUELO MI TENNIS, RELOJ, ANILLOS, ZARCILLOS O LLAVES SE VUELAN?</h4>
+                        <div data-accordion-element-content class="content">
+                         
+                          <p class="pad-top">¡Ten cuidado! Por favor, no entres a la cámara de vuelo ningún objeto excepto el traje, las gafas, el casco y los tennis bien atados. Los objetos que vuelen pueden sufrir daños o ser completamente destruidos, te podrían golpear a gran velocidad o dañar los ventiladores del túnel de viento. Si algo así ocurre tu vuelo será detenido inmediatamente. </p>
+                         
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿EN QUÉ SE DIFERENCIA SALTAR DE UN AVIÓN Y VOLAR EN EL TÚNEL?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">En el túnel, no caes, sólo de vuelas y no estás atado al instructor mientras él controla todos los movimientos. El instructor únicamente te guía, te ayuda y verifica que todo es seguro, pero una vez estás capacitado para volar solo, puedes hacerlo.</p>
+                       
+                        </div>
+                      </article>  
+                      
+                      
+                      
+                        <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿CUÁNTO TIEMPO PUEDO VOLAR EN EL TÚNEL?</h4>
+                        <div data-accordion-element-content class="content">
+                         
+                          <p class="pad-top">Dos minutos de vuelo ya son una experiencia inolvidable. Para personas no entrenadas recomendamos los paquetes de 3 - 6 minutos, no es razonable extender el tiempo de vuelo más de 20 minutos por día. 
+                            Los voladores expertos pueden estar más de una hora al día en el túnel. Sin embargo, el vuelo en el túnel requiere esfuerzos considerables ya que los músculos se cansan, porque todo el cuerpo trabaja. </p>
+                         
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿CUÁNTO TIEMPO DURA UNA ENTRADA INDIVIDUAL?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Normalmente se divide el tiempo de vuelo en entradas de 1 a 5 minutos. Este tiempo podrá reducirse o alargarse dependiendo de la condición física de la persona y su entrenamiento.</p>
+                       
+                        </div>
+                      </article>  
+                      
+                        <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿SE PUEDE VOLAR CON MAS DE UNA PERSONA?</h4>
+                        <div data-accordion-element-content class="content">
+                         
+                          <p class="pad-top">Los voladores expertos vuelan en grupos de hasta 8 personas. Pero a los principiantes sólo se les permite volar con sus instructores hasta que sea seguro volar por sí mismos. </p>
+                         
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿CÓMO PUEDO RESERVAR?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top">Llámanos, escríbenos o contáctanos por Facebook para conocer disponibilidad de horario y así     podamos agendar tu vuelo…<br>
+                            Télefono y Whatsapp México  55 4044 0422 y 55 7397 0829<br>
+                            Oficina en Cuernavaca  01 777 171 5650<br>
+                            Recuerda que nos ubicamos en Tequesquitengo, Morelos. Puedes encontrar cómo llegar haciendo <a class="orange" href="#direccion"><span class="orange">clic aquí.</span></a> </p>
+                       
+                        </div>
+                      </article>  
+                      
+                              
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿Cuál es el Diámetro y la altura de <span class="mayus">Tornado</span>?</h4>
                         <div data-accordion-element-content class="content">
                           <p class="pad-top">Diámetro 2.20 mts., suficiente para que quepa cualquier persona o dos personas con habilidades avanzadas y una altura 5.5o metros.</p>
                              <br>
@@ -238,6 +417,14 @@
                         <h4 class="effect" data-accordion-element-trigger>Si se paga una hora de salto, ¿tiene que volar 1 hora la misma persona?</h4>
                         <div data-accordion-element-content class="content">
                           <p class="pad-top">El servicio se ofrece en bloques de 2 minutos. Si se compra una hora completa a precio promocional, se puede compartir con los familiares. ¡Aprovecha!</p>
+                       
+                        </div>
+                      </article>
+                      
+                      <article>
+                        <h4 class="effect" data-accordion-element-trigger>¿TIENES OTRA PREGUNTA?</h4>
+                        <div data-accordion-element-content class="content">
+                          <p class="pad-top"><a href="mailto:contacto@paracaidismo.mx?subject=Contacto%20Tornado" target="_top" >contacto@paracaidismo.mx</a></p>
                        
                         </div>
                       </article>

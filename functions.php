@@ -9,9 +9,6 @@ function theme_js() {
 
 add_action('wp_enqueue_scripts', 'theme_js');
 
-
-
-
 // -------------------------------------------------------
 // Desactivar opciones del menu del dashboard de Wordpress
 // -------------------------------------------------------
